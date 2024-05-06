@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main1 .sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1 .sub .h5{
+    padding-left: -450px;
+    font-size: 15px;
+}
+.sub h2{
+    font-size: 45px;
+    font-style: italic;
+    cursor: pointer;
+}
+.sub h2 span{
+    color: orangered;
+}
+.sub h5{
+    margin-top: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.s1 .main1 .sub img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+.main1 .sub i{
+    font-size: 25px;
+    color: orangered;
+    cursor: pointer;
+}
+.main1 .sub button{
+    width: 120px;
+    height: 45px;
+    background-color: orangered;
+    border-radius: 16px;
+    border: none;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.s2 {
+    height: 100px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    background-color: #2E3135;
+}
+
+.sub2 ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.sub2 ul li {
+    margin: 0 10px; /* Adjust spacing between navbar items */
+}
+.sub2 ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.sub2 input[type="search"] {
+    margin-left: auto; /* Push search input to the right */
+    background-color: #2E3135;
+    height: 40px;
+}
+.sub2 input[type="search"]::placeholder {
+    /* Your placeholder styles */
+    color:#fff; /* Placeholder text color */
+    font-style: italic; /* Italicize the placeholder text */
+}
+.s3 {
+    background-image: url("https://bloggingheros.com/wp-content/uploads/2021/04/Charity.jpg");
+    height: 78.8vh; 
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    text-align: center;
+}
+
+.s3 .txt {
+    font-size: 2.5rem; 
+    margin: 10px 0;
+    color:black;
+    font-weight: 100; 
+}
+.s3 .txt1{
+    font-size: 3.0rem; 
+    margin: 10px 0;
+    color:black;
+    font-weight: 600; 
+}
+.s3 button {
+    background-color:#fff;
+    color: orangered; 
+    padding: 10px 20px; 
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+.s3 button:hover 
+{
+    background-color: #e64a19;
+    color: #fff;
+}
+.s3 .btn1 {
+    margin-top: 20px;
+    display: flex;
+    padding: 20px;
+    border-radius: 45px;
+    margin-right: 10px;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
